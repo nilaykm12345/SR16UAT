@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Details are correct]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37808" started-at="2018-07-01T07:40:38Z" finished-at="2018-07-01T07:41:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37808" started-at="2018-07-01T07:40:38Z" finished-at="2018-07-01T07:41:16Z">
+      <class name="testScript.Test1">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testScript.Test1@55f3ddb1]" name="launchBrowser" is-config="true" duration-ms="7368" started-at="2018-07-01T13:10:38Z" finished-at="2018-07-01T13:10:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testNESTHome()[pri:0, instance:testScript.Test1@55f3ddb1]" name="testNESTHome" duration-ms="29591" started-at="2018-07-01T13:10:46Z" finished-at="2018-07-01T13:11:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Details are correct]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testNESTHome -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testScript.Test1@55f3ddb1]" name="closeBrowser" is-config="true" duration-ms="779" started-at="2018-07-01T13:11:15Z" finished-at="2018-07-01T13:11:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testScript.Test1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
