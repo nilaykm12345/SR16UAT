@@ -54,7 +54,7 @@ public void launchBrowser()
 @AfterMethod(alwaysRun=true)
 public void closeBrowser()
 {
-	//driver.quit();
+	driver.quit();
 }
 
 }

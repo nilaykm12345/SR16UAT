@@ -1,5 +1,7 @@
 package testScript;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Reporter;
@@ -20,16 +22,16 @@ public class LoginTest extends BaseTest
 			driver.get("https://tcsuat2sw/");
 			
 			
+			
 			LoginPage name=new LoginPage(driver);
 			name.findElement(name.enterusername());
-			name.enterusername().sendKeys("2unm006"+Keys.ENTER);
+			name.enterusername().sendKeys("2unm006");
 			
 			LoginPage pass=new LoginPage(driver);
-			pass.findElement(pass.pass());
-			pass.pass().sendKeys("P@55word"+Keys.ENTER);
+			pass.findElement(pass.pass());			
+			pass.pass().sendKeys("P@55word");
 			
-			wait=new WebDriverWait(driver, 20);
-			
+					
 			LoginPage lgn=new LoginPage(driver);
 			lgn.findElement(lgn.clickonlgnbtn());
 			lgn.clickonlgnbtn().click();
@@ -37,6 +39,12 @@ public class LoginTest extends BaseTest
 			Reporter.log("Successfully logged in",true);
 			
 			EmployerLandingPage emplandpage=new EmployerLandingPage(driver);
+			emplandpage.findElement(emplandpage.manageworkers());
+			emplandpage.manageworkers().click();
+			
+			Reporter.log("checked manage worker page",true);
+			
+			
 			emplandpage.findElement(emplandpage.emplogout());
 			emplandpage.emplogout().click();
 			
